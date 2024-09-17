@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html >
+
 <head>
-    <title>My First Web Page</title>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  
 </head>
+
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a paragraph of text on my web page.</p>
-    <a href="https://www.example.com">This is a link</a>
+ <div class="login">
+	<h1>Boston House Price Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="MedInc" placeholder="MedInc" required="required" /><br>
+    	<input type="text" name="HouseAge" placeholder="HouseAge" required="required" /><br>
+        <input type="text" name="AveRooms" placeholder="AveRooms" required="required" /><br>
+        
+    
+       
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
 </body>
 </html>
