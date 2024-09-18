@@ -42,7 +42,7 @@ You can try out the live demo of our House Price Prediction API here:
 
 ### Usage
 
-(Provide instructions on how to use your project locally, e.g.:)
+
 1. Run the web application:
    ```
    python app.py
@@ -51,10 +51,7 @@ You can try out the live demo of our House Price Prediction API here:
 
 ## Model Information
 
-(Provide some details about your regression model, e.g.:)
-- Algorithm used: (e.g., Random Forest, Linear Regression, etc.)
-- Features considered: (list the main features used for prediction)
-- Performance metrics: (mention any relevant metrics like R-squared, RMSE, etc.)
+Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship, represented by the equation \( y = mx + b \), where \( m \) is the slope and \( b \) is the intercept. The goal is to find the best-fit line that minimizes the sum of squared differences between observed and predicted values. It's widely used for predictive analysis and identifying trends. Linear regression is simple yet powerful, making it a fundamental tool in data science and machine learning.
 
 ## Deployment
 
@@ -69,9 +66,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the Apache License Version 2.0, January 2004 - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- (List any acknowledgments, data sources, or inspirations)
 
 ## Contact
 
